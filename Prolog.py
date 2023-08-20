@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("NLP Em Prolog")
 st.write("Bem vindo ao nosso projeto um transformador de linguagem natural em Prolog. Para começar, digite uma frase em português e clique para ver a tradução em Prolog.")
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Defino que na interface terá um local onde o usuário poderá inputar o que ele gostaria de perguntar
 input = st.text_area("Frase em Linguagem Natural: ",label_visibility = "visible",height = 4)
